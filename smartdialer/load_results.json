@@ -1,0 +1,23 @@
+[
+  {
+    "agents": 100,
+    "workers": 8,
+    "allocated": 100,
+    "seconds": 0.2428,
+    "allocations_per_second": 411.9
+  },
+  {
+    "agents": 1000,
+    "workers": 8,
+    "allocated": 1000,
+    "seconds": 0.6793,
+    "allocations_per_second": 1472.1
+  },
+  {
+    "agents": 10000,
+    "workers": 8,
+    "allocated": 10000,
+    "seconds": 3.0879,
+    "allocations_per_second": 3238.4
+  }
+]

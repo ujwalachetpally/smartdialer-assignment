@@ -1,0 +1,118 @@
+{
+  "agents.csv": {
+    "rows": 30000,
+    "primary_key": "agent_id",
+    "duplicate_ids": 29000,
+    "blank_ids": 0
+  },
+  "call_attempts.csv": {
+    "rows": 120000,
+    "primary_key": "attempt_id",
+    "duplicate_ids": 0,
+    "blank_ids": 0
+  },
+  "vendor_telephony.csv": {
+    "rows": 15,
+    "primary_key": "vendor_id",
+    "duplicate_ids": 0,
+    "blank_ids": 0
+  },
+  "promises_to_pay.csv": {
+    "rows": 18000,
+    "primary_key": "ptp_id",
+    "duplicate_ids": 0,
+    "blank_ids": 0
+  },
+  "agent_sessions.csv": {
+    "rows": 15000,
+    "primary_key": "session_id",
+    "duplicate_ids": 0,
+    "blank_ids": 0
+  },
+  "borrowers.csv": {
+    "rows": 30600,
+    "primary_key": "borrower_id",
+    "duplicate_ids": 19585,
+    "blank_ids": 0
+  },
+  "sms_events.csv": {
+    "rows": 45000,
+    "primary_key": "sms_event_id",
+    "duplicate_ids": 0,
+    "blank_ids": 0
+  },
+  "calls.csv": {
+    "rows": 91350,
+    "primary_key": "call_id",
+    "duplicate_ids": 1350,
+    "blank_ids": 0,
+    "status_counts": {
+      "NO_ANSWER": 18081,
+      "ANSWERED": 17880,
+      "FAILED": 17999,
+      "VOICEMAIL": 17980,
+      "BUSY": 18060
+    },
+    "warning": "Last physical row retained for profiling only; conflicting records require timestamp-aware reconciliation before training."
+  },
+  "account_status_history.csv": {
+    "rows": 60000,
+    "primary_key": "history_id",
+    "duplicate_ids": 0,
+    "blank_ids": 0
+  },
+  "data_dictionary.csv": {
+    "rows": 143,
+    "primary_key": "dataset,column",
+    "duplicate_ids": 0,
+    "blank_ids": 0
+  },
+  "whatsapp_events.csv": {
+    "rows": 60600,
+    "primary_key": "whatsapp_event_id",
+    "duplicate_ids": 600,
+    "blank_ids": 0
+  },
+  "daily_targeting.csv": {
+    "rows": 45000,
+    "primary_key": "target_id",
+    "duplicate_ids": 0,
+    "blank_ids": 0
+  },
+  "field_visits.csv": {
+    "rows": 25000,
+    "primary_key": "visit_id",
+    "duplicate_ids": 0,
+    "blank_ids": 0
+  },
+  "complaints.csv": {
+    "rows": 8000,
+    "primary_key": "complaint_id",
+    "duplicate_ids": 0,
+    "blank_ids": 0
+  },
+  "payments.csv": {
+    "rows": 25500,
+    "primary_key": "payment_id",
+    "duplicate_ids": 500,
+    "blank_ids": 0
+  },
+  "call_dispositions.csv": {
+    "rows": 35000,
+    "primary_key": "disposition_id",
+    "duplicate_ids": 0,
+    "blank_ids": 0
+  },
+  "accounts.csv": {
+    "rows": 30000,
+    "primary_key": "account_id",
+    "duplicate_ids": 0,
+    "blank_ids": 0
+  },
+  "campaigns.csv": {
+    "rows": 120,
+    "primary_key": "campaign_id",
+    "duplicate_ids": 0,
+    "blank_ids": 0
+  }
+}

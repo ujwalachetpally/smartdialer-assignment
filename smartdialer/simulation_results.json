@@ -1,0 +1,2178 @@
+[
+  {
+    "mode": "progressive",
+    "scenario": "A",
+    "provider": "A",
+    "seconds": 900,
+    "agents": 50,
+    "utilization": 0.9526,
+    "initiated": 2134,
+    "connected": 395,
+    "requested": 2134,
+    "approved": 2134,
+    "reduced_ticks": 0,
+    "decisions": [
+      {
+        "second": 0,
+        "estimate": 0.5,
+        "available": 50,
+        "ringing": 0,
+        "requested": 50,
+        "approved": 50
+      },
+      {
+        "second": 60,
+        "estimate": 0.19,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 120,
+        "estimate": 0.19,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 180,
+        "estimate": 0.189,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 240,
+        "estimate": 0.189,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 300,
+        "estimate": 0.183,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 360,
+        "estimate": 0.183,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 420,
+        "estimate": 0.187,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 480,
+        "estimate": 0.187,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 540,
+        "estimate": 0.189,
+        "available": 1,
+        "ringing": 0,
+        "requested": 1,
+        "approved": 1
+      },
+      {
+        "second": 600,
+        "estimate": 0.19,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 660,
+        "estimate": 0.189,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 720,
+        "estimate": 0.19,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 780,
+        "estimate": 0.188,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 840,
+        "estimate": 0.187,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      }
+    ],
+    "note": "Utilization is connected agent-seconds / staffed agent-seconds; unfinished calls remain active at horizon."
+  },
+  {
+    "mode": "predictive",
+    "scenario": "A",
+    "provider": "A",
+    "seconds": 900,
+    "agents": 50,
+    "utilization": 0.9526,
+    "initiated": 2134,
+    "connected": 395,
+    "requested": 11322,
+    "approved": 2134,
+    "reduced_ticks": 329,
+    "decisions": [
+      {
+        "second": 0,
+        "estimate": 0.5,
+        "available": 50,
+        "ringing": 0,
+        "requested": 100,
+        "approved": 50
+      },
+      {
+        "second": 60,
+        "estimate": 0.19,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 120,
+        "estimate": 0.19,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 180,
+        "estimate": 0.189,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 240,
+        "estimate": 0.189,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 300,
+        "estimate": 0.183,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 360,
+        "estimate": 0.183,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 420,
+        "estimate": 0.187,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 480,
+        "estimate": 0.187,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 540,
+        "estimate": 0.189,
+        "available": 1,
+        "ringing": 0,
+        "requested": 6,
+        "approved": 1
+      },
+      {
+        "second": 600,
+        "estimate": 0.19,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 660,
+        "estimate": 0.189,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 720,
+        "estimate": 0.19,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 780,
+        "estimate": 0.188,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 840,
+        "estimate": 0.187,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      }
+    ],
+    "note": "Utilization is connected agent-seconds / staffed agent-seconds; unfinished calls remain active at horizon."
+  },
+  {
+    "mode": "progressive",
+    "scenario": "B",
+    "provider": "A",
+    "seconds": 900,
+    "agents": 50,
+    "utilization": 0.977,
+    "initiated": 1034,
+    "connected": 500,
+    "requested": 1034,
+    "approved": 1034,
+    "reduced_ticks": 0,
+    "decisions": [
+      {
+        "second": 0,
+        "estimate": 0.5,
+        "available": 50,
+        "ringing": 0,
+        "requested": 50,
+        "approved": 50
+      },
+      {
+        "second": 60,
+        "estimate": 0.52,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 120,
+        "estimate": 0.52,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 180,
+        "estimate": 0.52,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 240,
+        "estimate": 0.503,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 300,
+        "estimate": 0.496,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 360,
+        "estimate": 0.496,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 420,
+        "estimate": 0.497,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 480,
+        "estimate": 0.493,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 540,
+        "estimate": 0.493,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 600,
+        "estimate": 0.496,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 660,
+        "estimate": 0.49,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 720,
+        "estimate": 0.49,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 780,
+        "estimate": 0.482,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 840,
+        "estimate": 0.484,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      }
+    ],
+    "note": "Utilization is connected agent-seconds / staffed agent-seconds; unfinished calls remain active at horizon."
+  },
+  {
+    "mode": "predictive",
+    "scenario": "B",
+    "provider": "A",
+    "seconds": 900,
+    "agents": 50,
+    "utilization": 0.977,
+    "initiated": 1034,
+    "connected": 500,
+    "requested": 2168,
+    "approved": 1034,
+    "reduced_ticks": 126,
+    "decisions": [
+      {
+        "second": 0,
+        "estimate": 0.5,
+        "available": 50,
+        "ringing": 0,
+        "requested": 100,
+        "approved": 50
+      },
+      {
+        "second": 60,
+        "estimate": 0.52,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 120,
+        "estimate": 0.52,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 180,
+        "estimate": 0.52,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 240,
+        "estimate": 0.503,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 300,
+        "estimate": 0.496,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 360,
+        "estimate": 0.496,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 420,
+        "estimate": 0.497,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 480,
+        "estimate": 0.493,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 540,
+        "estimate": 0.493,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 600,
+        "estimate": 0.496,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 660,
+        "estimate": 0.49,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 720,
+        "estimate": 0.49,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 780,
+        "estimate": 0.482,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 840,
+        "estimate": 0.484,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      }
+    ],
+    "note": "Utilization is connected agent-seconds / staffed agent-seconds; unfinished calls remain active at horizon."
+  },
+  {
+    "mode": "progressive",
+    "scenario": "C",
+    "provider": "A",
+    "seconds": 900,
+    "agents": 50,
+    "utilization": 0.9918,
+    "initiated": 367,
+    "connected": 250,
+    "requested": 367,
+    "approved": 367,
+    "reduced_ticks": 0,
+    "decisions": [
+      {
+        "second": 0,
+        "estimate": 0.5,
+        "available": 50,
+        "ringing": 0,
+        "requested": 50,
+        "approved": 50
+      },
+      {
+        "second": 60,
+        "estimate": 0.732,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 120,
+        "estimate": 0.732,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 180,
+        "estimate": 0.732,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 240,
+        "estimate": 0.708,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 300,
+        "estimate": 0.708,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 360,
+        "estimate": 0.708,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 420,
+        "estimate": 0.717,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 480,
+        "estimate": 0.717,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 540,
+        "estimate": 0.717,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 600,
+        "estimate": 0.706,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 660,
+        "estimate": 0.706,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 720,
+        "estimate": 0.706,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 780,
+        "estimate": 0.679,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 840,
+        "estimate": 0.679,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      }
+    ],
+    "note": "Utilization is connected agent-seconds / staffed agent-seconds; unfinished calls remain active at horizon."
+  },
+  {
+    "mode": "predictive",
+    "scenario": "C",
+    "provider": "A",
+    "seconds": 900,
+    "agents": 50,
+    "utilization": 0.9918,
+    "initiated": 367,
+    "connected": 250,
+    "requested": 563,
+    "approved": 367,
+    "reduced_ticks": 35,
+    "decisions": [
+      {
+        "second": 0,
+        "estimate": 0.5,
+        "available": 50,
+        "ringing": 0,
+        "requested": 100,
+        "approved": 50
+      },
+      {
+        "second": 60,
+        "estimate": 0.732,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 120,
+        "estimate": 0.732,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 180,
+        "estimate": 0.732,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 240,
+        "estimate": 0.708,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 300,
+        "estimate": 0.708,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 360,
+        "estimate": 0.708,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 420,
+        "estimate": 0.717,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 480,
+        "estimate": 0.717,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 540,
+        "estimate": 0.717,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 600,
+        "estimate": 0.706,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 660,
+        "estimate": 0.706,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 720,
+        "estimate": 0.706,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 780,
+        "estimate": 0.679,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 840,
+        "estimate": 0.679,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      }
+    ],
+    "note": "Utilization is connected agent-seconds / staffed agent-seconds; unfinished calls remain active at horizon."
+  },
+  {
+    "mode": "progressive",
+    "scenario": "D",
+    "provider": "A",
+    "seconds": 900,
+    "agents": 50,
+    "utilization": 0.9564,
+    "initiated": 1963,
+    "connected": 400,
+    "requested": 1963,
+    "approved": 1963,
+    "reduced_ticks": 0,
+    "decisions": [
+      {
+        "second": 0,
+        "estimate": 0.5,
+        "available": 50,
+        "ringing": 0,
+        "requested": 50,
+        "approved": 50
+      },
+      {
+        "second": 60,
+        "estimate": 0.732,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 120,
+        "estimate": 0.708,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 180,
+        "estimate": 0.708,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 240,
+        "estimate": 0.717,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 300,
+        "estimate": 0.706,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 360,
+        "estimate": 0.706,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 420,
+        "estimate": 0.679,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 480,
+        "estimate": 0.342,
+        "available": 8,
+        "ringing": 0,
+        "requested": 8,
+        "approved": 8
+      },
+      {
+        "second": 540,
+        "estimate": 0.311,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 600,
+        "estimate": 0.311,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 660,
+        "estimate": 0.276,
+        "available": 8,
+        "ringing": 0,
+        "requested": 8,
+        "approved": 8
+      },
+      {
+        "second": 720,
+        "estimate": 0.249,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 780,
+        "estimate": 0.249,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 840,
+        "estimate": 0.229,
+        "available": 13,
+        "ringing": 0,
+        "requested": 13,
+        "approved": 13
+      }
+    ],
+    "note": "Utilization is connected agent-seconds / staffed agent-seconds; unfinished calls remain active at horizon."
+  },
+  {
+    "mode": "predictive",
+    "scenario": "D",
+    "provider": "A",
+    "seconds": 900,
+    "agents": 50,
+    "utilization": 0.9564,
+    "initiated": 1963,
+    "connected": 400,
+    "requested": 6138,
+    "approved": 1963,
+    "reduced_ticks": 249,
+    "decisions": [
+      {
+        "second": 0,
+        "estimate": 0.5,
+        "available": 50,
+        "ringing": 0,
+        "requested": 100,
+        "approved": 50
+      },
+      {
+        "second": 60,
+        "estimate": 0.732,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 120,
+        "estimate": 0.708,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 180,
+        "estimate": 0.708,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 240,
+        "estimate": 0.717,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 300,
+        "estimate": 0.706,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 360,
+        "estimate": 0.706,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 420,
+        "estimate": 0.679,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 480,
+        "estimate": 0.342,
+        "available": 8,
+        "ringing": 0,
+        "requested": 24,
+        "approved": 8
+      },
+      {
+        "second": 540,
+        "estimate": 0.311,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 600,
+        "estimate": 0.311,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 660,
+        "estimate": 0.276,
+        "available": 8,
+        "ringing": 0,
+        "requested": 30,
+        "approved": 8
+      },
+      {
+        "second": 720,
+        "estimate": 0.249,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 780,
+        "estimate": 0.249,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 840,
+        "estimate": 0.229,
+        "available": 13,
+        "ringing": 0,
+        "requested": 57,
+        "approved": 13
+      }
+    ],
+    "note": "Utilization is connected agent-seconds / staffed agent-seconds; unfinished calls remain active at horizon."
+  },
+  {
+    "mode": "progressive",
+    "scenario": "A",
+    "provider": "B",
+    "seconds": 900,
+    "agents": 50,
+    "utilization": 0.7179,
+    "initiated": 1577,
+    "connected": 287,
+    "requested": 2386,
+    "approved": 1577,
+    "reduced_ticks": 39,
+    "decisions": [
+      {
+        "second": 0,
+        "estimate": 0.5,
+        "available": 50,
+        "ringing": 0,
+        "requested": 50,
+        "approved": 50
+      },
+      {
+        "second": 60,
+        "estimate": 0.177,
+        "available": 0,
+        "ringing": 13,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 120,
+        "estimate": 0.18,
+        "available": 0,
+        "ringing": 2,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 180,
+        "estimate": 0.168,
+        "available": 2,
+        "ringing": 19,
+        "requested": 2,
+        "approved": 2
+      },
+      {
+        "second": 240,
+        "estimate": 0.173,
+        "available": 0,
+        "ringing": 11,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 300,
+        "estimate": 0.181,
+        "available": 2,
+        "ringing": 10,
+        "requested": 2,
+        "approved": 0
+      },
+      {
+        "second": 360,
+        "estimate": 0.186,
+        "available": 2,
+        "ringing": 15,
+        "requested": 2,
+        "approved": 2
+      },
+      {
+        "second": 420,
+        "estimate": 0.175,
+        "available": 4,
+        "ringing": 13,
+        "requested": 4,
+        "approved": 4
+      },
+      {
+        "second": 480,
+        "estimate": 0.174,
+        "available": 2,
+        "ringing": 15,
+        "requested": 2,
+        "approved": 2
+      },
+      {
+        "second": 540,
+        "estimate": 0.179,
+        "available": 3,
+        "ringing": 5,
+        "requested": 3,
+        "approved": 3
+      },
+      {
+        "second": 600,
+        "estimate": 0.178,
+        "available": 0,
+        "ringing": 11,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 660,
+        "estimate": 0.181,
+        "available": 3,
+        "ringing": 14,
+        "requested": 3,
+        "approved": 3
+      },
+      {
+        "second": 720,
+        "estimate": 0.188,
+        "available": 1,
+        "ringing": 5,
+        "requested": 1,
+        "approved": 1
+      },
+      {
+        "second": 780,
+        "estimate": 0.186,
+        "available": 0,
+        "ringing": 13,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 840,
+        "estimate": 0.186,
+        "available": 3,
+        "ringing": 12,
+        "requested": 3,
+        "approved": 3
+      }
+    ],
+    "note": "Utilization is connected agent-seconds / staffed agent-seconds; unfinished calls remain active at horizon."
+  },
+  {
+    "mode": "predictive",
+    "scenario": "A",
+    "provider": "B",
+    "seconds": 900,
+    "agents": 50,
+    "utilization": 0.7104,
+    "initiated": 1561,
+    "connected": 284,
+    "requested": 8752,
+    "approved": 1561,
+    "reduced_ticks": 404,
+    "decisions": [
+      {
+        "second": 0,
+        "estimate": 0.5,
+        "available": 50,
+        "ringing": 0,
+        "requested": 100,
+        "approved": 50
+      },
+      {
+        "second": 60,
+        "estimate": 0.18,
+        "available": 2,
+        "ringing": 11,
+        "requested": 1,
+        "approved": 1
+      },
+      {
+        "second": 120,
+        "estimate": 0.181,
+        "available": 1,
+        "ringing": 1,
+        "requested": 5,
+        "approved": 1
+      },
+      {
+        "second": 180,
+        "estimate": 0.167,
+        "available": 4,
+        "ringing": 19,
+        "requested": 5,
+        "approved": 4
+      },
+      {
+        "second": 240,
+        "estimate": 0.175,
+        "available": 1,
+        "ringing": 10,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 300,
+        "estimate": 0.182,
+        "available": 2,
+        "ringing": 8,
+        "requested": 3,
+        "approved": 0
+      },
+      {
+        "second": 360,
+        "estimate": 0.185,
+        "available": 2,
+        "ringing": 17,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 420,
+        "estimate": 0.176,
+        "available": 4,
+        "ringing": 14,
+        "requested": 9,
+        "approved": 4
+      },
+      {
+        "second": 480,
+        "estimate": 0.175,
+        "available": 5,
+        "ringing": 10,
+        "requested": 19,
+        "approved": 5
+      },
+      {
+        "second": 540,
+        "estimate": 0.177,
+        "available": 2,
+        "ringing": 9,
+        "requested": 3,
+        "approved": 2
+      },
+      {
+        "second": 600,
+        "estimate": 0.178,
+        "available": 3,
+        "ringing": 10,
+        "requested": 7,
+        "approved": 3
+      },
+      {
+        "second": 660,
+        "estimate": 0.182,
+        "available": 0,
+        "ringing": 14,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 720,
+        "estimate": 0.187,
+        "available": 1,
+        "ringing": 6,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 780,
+        "estimate": 0.187,
+        "available": 3,
+        "ringing": 10,
+        "requested": 7,
+        "approved": 3
+      },
+      {
+        "second": 840,
+        "estimate": 0.185,
+        "available": 3,
+        "ringing": 14,
+        "requested": 3,
+        "approved": 3
+      }
+    ],
+    "note": "Utilization is connected agent-seconds / staffed agent-seconds; unfinished calls remain active at horizon."
+  },
+  {
+    "mode": "progressive",
+    "scenario": "B",
+    "provider": "B",
+    "seconds": 900,
+    "agents": 50,
+    "utilization": 0.8193,
+    "initiated": 976,
+    "connected": 433,
+    "requested": 1723,
+    "approved": 976,
+    "reduced_ticks": 39,
+    "decisions": [
+      {
+        "second": 0,
+        "estimate": 0.5,
+        "available": 50,
+        "ringing": 0,
+        "requested": 50,
+        "approved": 50
+      },
+      {
+        "second": 60,
+        "estimate": 0.447,
+        "available": 0,
+        "ringing": 1,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 120,
+        "estimate": 0.464,
+        "available": 1,
+        "ringing": 18,
+        "requested": 1,
+        "approved": 1
+      },
+      {
+        "second": 180,
+        "estimate": 0.432,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 240,
+        "estimate": 0.426,
+        "available": 3,
+        "ringing": 7,
+        "requested": 3,
+        "approved": 3
+      },
+      {
+        "second": 300,
+        "estimate": 0.435,
+        "available": 2,
+        "ringing": 9,
+        "requested": 2,
+        "approved": 0
+      },
+      {
+        "second": 360,
+        "estimate": 0.427,
+        "available": 2,
+        "ringing": 13,
+        "requested": 2,
+        "approved": 2
+      },
+      {
+        "second": 420,
+        "estimate": 0.443,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 480,
+        "estimate": 0.439,
+        "available": 2,
+        "ringing": 9,
+        "requested": 2,
+        "approved": 2
+      },
+      {
+        "second": 540,
+        "estimate": 0.444,
+        "available": 2,
+        "ringing": 5,
+        "requested": 2,
+        "approved": 2
+      },
+      {
+        "second": 600,
+        "estimate": 0.456,
+        "available": 1,
+        "ringing": 6,
+        "requested": 1,
+        "approved": 1
+      },
+      {
+        "second": 660,
+        "estimate": 0.448,
+        "available": 3,
+        "ringing": 12,
+        "requested": 3,
+        "approved": 3
+      },
+      {
+        "second": 720,
+        "estimate": 0.439,
+        "available": 0,
+        "ringing": 6,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 780,
+        "estimate": 0.442,
+        "available": 1,
+        "ringing": 11,
+        "requested": 1,
+        "approved": 1
+      },
+      {
+        "second": 840,
+        "estimate": 0.442,
+        "available": 1,
+        "ringing": 7,
+        "requested": 1,
+        "approved": 1
+      }
+    ],
+    "note": "Utilization is connected agent-seconds / staffed agent-seconds; unfinished calls remain active at horizon."
+  },
+  {
+    "mode": "predictive",
+    "scenario": "B",
+    "provider": "B",
+    "seconds": 900,
+    "agents": 50,
+    "utilization": 0.8013,
+    "initiated": 951,
+    "connected": 420,
+    "requested": 2749,
+    "approved": 951,
+    "reduced_ticks": 118,
+    "decisions": [
+      {
+        "second": 0,
+        "estimate": 0.5,
+        "available": 50,
+        "ringing": 0,
+        "requested": 100,
+        "approved": 50
+      },
+      {
+        "second": 60,
+        "estimate": 0.451,
+        "available": 0,
+        "ringing": 1,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 120,
+        "estimate": 0.469,
+        "available": 3,
+        "ringing": 15,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 180,
+        "estimate": 0.425,
+        "available": 1,
+        "ringing": 4,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 240,
+        "estimate": 0.432,
+        "available": 1,
+        "ringing": 13,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 300,
+        "estimate": 0.435,
+        "available": 1,
+        "ringing": 9,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 360,
+        "estimate": 0.43,
+        "available": 2,
+        "ringing": 13,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 420,
+        "estimate": 0.44,
+        "available": 0,
+        "ringing": 1,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 480,
+        "estimate": 0.441,
+        "available": 1,
+        "ringing": 9,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 540,
+        "estimate": 0.442,
+        "available": 3,
+        "ringing": 5,
+        "requested": 2,
+        "approved": 2
+      },
+      {
+        "second": 600,
+        "estimate": 0.451,
+        "available": 2,
+        "ringing": 6,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 660,
+        "estimate": 0.451,
+        "available": 3,
+        "ringing": 11,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 720,
+        "estimate": 0.444,
+        "available": 2,
+        "ringing": 4,
+        "requested": 1,
+        "approved": 1
+      },
+      {
+        "second": 780,
+        "estimate": 0.445,
+        "available": 5,
+        "ringing": 2,
+        "requested": 10,
+        "approved": 5
+      },
+      {
+        "second": 840,
+        "estimate": 0.443,
+        "available": 0,
+        "ringing": 7,
+        "requested": 0,
+        "approved": 0
+      }
+    ],
+    "note": "Utilization is connected agent-seconds / staffed agent-seconds; unfinished calls remain active at horizon."
+  },
+  {
+    "mode": "progressive",
+    "scenario": "C",
+    "provider": "B",
+    "seconds": 900,
+    "agents": 50,
+    "utilization": 0.9294,
+    "initiated": 421,
+    "connected": 250,
+    "requested": 421,
+    "approved": 421,
+    "reduced_ticks": 0,
+    "decisions": [
+      {
+        "second": 0,
+        "estimate": 0.5,
+        "available": 50,
+        "ringing": 0,
+        "requested": 50,
+        "approved": 50
+      },
+      {
+        "second": 60,
+        "estimate": 0.598,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 120,
+        "estimate": 0.598,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 180,
+        "estimate": 0.598,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 240,
+        "estimate": 0.631,
+        "available": 0,
+        "ringing": 1,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 300,
+        "estimate": 0.634,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 360,
+        "estimate": 0.634,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 420,
+        "estimate": 0.594,
+        "available": 0,
+        "ringing": 3,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 480,
+        "estimate": 0.601,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 540,
+        "estimate": 0.601,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 600,
+        "estimate": 0.596,
+        "available": 2,
+        "ringing": 7,
+        "requested": 2,
+        "approved": 2
+      },
+      {
+        "second": 660,
+        "estimate": 0.591,
+        "available": 0,
+        "ringing": 1,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 720,
+        "estimate": 0.591,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 780,
+        "estimate": 0.592,
+        "available": 1,
+        "ringing": 10,
+        "requested": 1,
+        "approved": 1
+      },
+      {
+        "second": 840,
+        "estimate": 0.593,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      }
+    ],
+    "note": "Utilization is connected agent-seconds / staffed agent-seconds; unfinished calls remain active at horizon."
+  },
+  {
+    "mode": "predictive",
+    "scenario": "C",
+    "provider": "B",
+    "seconds": 900,
+    "agents": 50,
+    "utilization": 0.9115,
+    "initiated": 421,
+    "connected": 250,
+    "requested": 502,
+    "approved": 421,
+    "reduced_ticks": 24,
+    "decisions": [
+      {
+        "second": 0,
+        "estimate": 0.5,
+        "available": 50,
+        "ringing": 0,
+        "requested": 100,
+        "approved": 50
+      },
+      {
+        "second": 60,
+        "estimate": 0.598,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 120,
+        "estimate": 0.598,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 180,
+        "estimate": 0.598,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 240,
+        "estimate": 0.631,
+        "available": 0,
+        "ringing": 1,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 300,
+        "estimate": 0.634,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 360,
+        "estimate": 0.634,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 420,
+        "estimate": 0.6,
+        "available": 4,
+        "ringing": 6,
+        "requested": 1,
+        "approved": 1
+      },
+      {
+        "second": 480,
+        "estimate": 0.601,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 540,
+        "estimate": 0.601,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 600,
+        "estimate": 0.604,
+        "available": 8,
+        "ringing": 6,
+        "requested": 8,
+        "approved": 8
+      },
+      {
+        "second": 660,
+        "estimate": 0.595,
+        "available": 0,
+        "ringing": 1,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 720,
+        "estimate": 0.591,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 780,
+        "estimate": 0.593,
+        "available": 3,
+        "ringing": 10,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 840,
+        "estimate": 0.594,
+        "available": 0,
+        "ringing": 2,
+        "requested": 0,
+        "approved": 0
+      }
+    ],
+    "note": "Utilization is connected agent-seconds / staffed agent-seconds; unfinished calls remain active at horizon."
+  },
+  {
+    "mode": "progressive",
+    "scenario": "D",
+    "provider": "B",
+    "seconds": 900,
+    "agents": 50,
+    "utilization": 0.7595,
+    "initiated": 1292,
+    "connected": 325,
+    "requested": 2392,
+    "approved": 1292,
+    "reduced_ticks": 39,
+    "decisions": [
+      {
+        "second": 0,
+        "estimate": 0.5,
+        "available": 50,
+        "ringing": 0,
+        "requested": 50,
+        "approved": 50
+      },
+      {
+        "second": 60,
+        "estimate": 0.598,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 120,
+        "estimate": 0.628,
+        "available": 1,
+        "ringing": 9,
+        "requested": 1,
+        "approved": 1
+      },
+      {
+        "second": 180,
+        "estimate": 0.634,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 240,
+        "estimate": 0.594,
+        "available": 0,
+        "ringing": 3,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 300,
+        "estimate": 0.602,
+        "available": 5,
+        "ringing": 7,
+        "requested": 5,
+        "approved": 0
+      },
+      {
+        "second": 360,
+        "estimate": 0.601,
+        "available": 0,
+        "ringing": 5,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 420,
+        "estimate": 0.596,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 480,
+        "estimate": 0.569,
+        "available": 0,
+        "ringing": 7,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 540,
+        "estimate": 0.498,
+        "available": 7,
+        "ringing": 21,
+        "requested": 7,
+        "approved": 7
+      },
+      {
+        "second": 600,
+        "estimate": 0.393,
+        "available": 1,
+        "ringing": 16,
+        "requested": 1,
+        "approved": 1
+      },
+      {
+        "second": 660,
+        "estimate": 0.344,
+        "available": 1,
+        "ringing": 14,
+        "requested": 1,
+        "approved": 1
+      },
+      {
+        "second": 720,
+        "estimate": 0.303,
+        "available": 3,
+        "ringing": 13,
+        "requested": 3,
+        "approved": 3
+      },
+      {
+        "second": 780,
+        "estimate": 0.274,
+        "available": 3,
+        "ringing": 15,
+        "requested": 3,
+        "approved": 3
+      },
+      {
+        "second": 840,
+        "estimate": 0.261,
+        "available": 0,
+        "ringing": 13,
+        "requested": 0,
+        "approved": 0
+      }
+    ],
+    "note": "Utilization is connected agent-seconds / staffed agent-seconds; unfinished calls remain active at horizon."
+  },
+  {
+    "mode": "predictive",
+    "scenario": "D",
+    "provider": "B",
+    "seconds": 900,
+    "agents": 50,
+    "utilization": 0.7334,
+    "initiated": 1271,
+    "connected": 315,
+    "requested": 2981,
+    "approved": 1271,
+    "reduced_ticks": 129,
+    "decisions": [
+      {
+        "second": 0,
+        "estimate": 0.5,
+        "available": 50,
+        "ringing": 0,
+        "requested": 100,
+        "approved": 50
+      },
+      {
+        "second": 60,
+        "estimate": 0.598,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 120,
+        "estimate": 0.618,
+        "available": 7,
+        "ringing": 8,
+        "requested": 4,
+        "approved": 4
+      },
+      {
+        "second": 180,
+        "estimate": 0.634,
+        "available": 0,
+        "ringing": 0,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 240,
+        "estimate": 0.6,
+        "available": 4,
+        "ringing": 6,
+        "requested": 1,
+        "approved": 1
+      },
+      {
+        "second": 300,
+        "estimate": 0.599,
+        "available": 2,
+        "ringing": 6,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 360,
+        "estimate": 0.6,
+        "available": 3,
+        "ringing": 10,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 420,
+        "estimate": 0.593,
+        "available": 0,
+        "ringing": 1,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 480,
+        "estimate": 0.55,
+        "available": 2,
+        "ringing": 13,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 540,
+        "estimate": 0.466,
+        "available": 6,
+        "ringing": 20,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 600,
+        "estimate": 0.391,
+        "available": 5,
+        "ringing": 10,
+        "requested": 3,
+        "approved": 3
+      },
+      {
+        "second": 660,
+        "estimate": 0.346,
+        "available": 5,
+        "ringing": 12,
+        "requested": 3,
+        "approved": 3
+      },
+      {
+        "second": 720,
+        "estimate": 0.302,
+        "available": 3,
+        "ringing": 16,
+        "requested": 0,
+        "approved": 0
+      },
+      {
+        "second": 780,
+        "estimate": 0.271,
+        "available": 9,
+        "ringing": 10,
+        "requested": 24,
+        "approved": 9
+      },
+      {
+        "second": 840,
+        "estimate": 0.258,
+        "available": 1,
+        "ringing": 11,
+        "requested": 0,
+        "approved": 0
+      }
+    ],
+    "note": "Utilization is connected agent-seconds / staffed agent-seconds; unfinished calls remain active at horizon."
+  }
+]
